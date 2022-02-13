@@ -1,4 +1,4 @@
-My personnal Resume as Web Developer
+My personnal Resume as Coach
 
 
 French and English versions
