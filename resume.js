@@ -29,7 +29,7 @@ window.addEventListener("DOMContentLoaded", function() {
     if(tradBar) {
         tradBar.style.cssText = "display: none;z-index: -1;width: 0;height: 0;";
         document.body.style.cssText = "margin-top: 0;";
-        flagLink.setAttribute('href', 'https://ana-k.github.io/Resume/');
+        flagLink.setAttribute('href', 'https://yann-dv.github.io/Ana_cv/');
         flagLink.setAttribute('title', 'Voir la version française');
 
         linkedIn.style.cssText = "title: See my Linkedin";
@@ -39,7 +39,7 @@ window.addEventListener("DOMContentLoaded", function() {
 
     }
     else {
-        flagLink.setAttribute('href', "https://translate.google.com/translate?sl=fr&tl=en&u=https://ana-k.github.io/Resume/");
+        flagLink.setAttribute('href', "https://translate.google.com/translate?sl=fr&tl=en&u=https://yann-dv.github.io/Ana_cv/");
         flagVersion.style.background = "padding-box no-repeat center/ cover url('./images/en-flag.png')";
     }
 });
