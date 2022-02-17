@@ -18,6 +18,8 @@ html {
 
 body{
   height: 100%;
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 
 .fullname {
@@ -341,7 +343,7 @@ input[type="range"] {
 }
 
 @media only screen and (max-width: 600px) {
-  .body {
+  body {
     margin: 0;
     overscroll-behavior: none;
   }
@@ -425,30 +427,38 @@ input[type="range"] {
   .fullname {
     font-size: 20px;
   }
+  .jobDuration{
+    font-size: 18px;
+  }
   .pitch {
-    font-size: 22px;
-    margin-right: .5rem;
+    font-size: 19px;
+    margin-right: 2rem;
   }
   .skills {
     padding-left: 1rem;
     padding-right: .5rem;
     font-size: 14px;
   }
+  .formations-list, .experiences-list {
+    margin-left: -3rem !important;
+    margin-right: 2rem !important;
+  }
   .left-side h3 {
-    font-size: 22px;
+    font-size: 20px;
   }
   .left-side h4 {
-    font-size: 17px;
+    font-size: 15px;
   }
   .left-side p {
-    font-size: 15px;
+    font-size: 14px;
   }
   .left-side .diploma-level {
     font-size: 14px;
   }
-  .body {
+  body {
     margin: 0;
     overscroll-behavior: none;
+    margin-left: .5rem;
   }
   .right-side {
     min-height: 100%;
