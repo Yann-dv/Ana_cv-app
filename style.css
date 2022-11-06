@@ -29,16 +29,23 @@ body{
 .pitch {
     color: var(--main-color);
     font-size: 34px;
-    margin-bottom: 4rem;
+    width: 95%;
 }
 
 .jobdesc {
-  width: 60%
+  width: 60%;
+}
+
+.jobDuration {
+  float: right;
+  font-size: 24px;
+  margin-top: .3rem;
 }
 
 .jobgoal {
   color: var(--main-color);
   font-size: 30px;
+  font-weight: bold;
 }
 
 .main-grid {
@@ -79,13 +86,26 @@ body{
   font-weight: bold;
 }
 
+.skills h3, .experiences h3, .diplomas h3 {
+  text-decoration: underline;
+}
+
 .skills {
   font-size: 22px;
 }
 
-.skills li {
-  margin-left:1rem;
-  list-style-type: disc;
+.skills-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: left;
+}
+
+.skills-list span {
+  color:var(--secondary-text-color);
+  background-color: var(--main-color);
+  padding: .5rem;
+  margin: .2rem;
 }
 
 .diploma-level{
@@ -161,6 +181,10 @@ button:hover{
   padding-right: 1rem;
 }
 
+.interest h3, .lang h3, .skills_progressbar h3 {
+  text-decoration: underline;
+}
+
 .personal-infos > ul  li{
     display: flex;
     margin-top: .5rem;
@@ -171,7 +195,7 @@ button:hover{
 .avatar {
     margin-top: 2rem;
     width: 50%;
-    box-shadow: 3px 3px 0px var(--main-bg-color);
+    box-shadow: 3px 3px 4px black;
 }
 
 li {
